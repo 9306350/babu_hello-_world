@@ -1,0 +1,6 @@
+pipeline{
+agent any{
+satge(build){
+steps{
+sh "mvn build"
+}}}}
